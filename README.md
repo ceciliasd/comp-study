@@ -1,124 +1,136 @@
-## 📚 Cronograma de Estudos: aprofundando o conhecimento em programação durante as férias
+## 📚 Study Schedule: deepening programming knowledge during the vacation break
 
-Este repositório contém 10 semanas de estudos intensivos, organizadas em pastas, para aproveitar o período de férias e fortalecer os conhecimentos em C++, Python e Desenvolvimento Web.
+This repository contains 10 weeks of intensive study, organized into folders, to make the most of the vacation period and strengthen knowledge in C++, Python, and Web Development.
 
-O objetivo é construir uma base sólida e evoluir até conteúdos mais avançados, com projetos práticos semanais que consolidam os aprendizados.
+The goal is to build a solid foundation and progress to more advanced content, with weekly practical projects that consolidate the learning process.
 
-### 📂 Estrutura do Repositório
+### 📂 Repository Structure
 
-O repositório é dividido em 10 pastas, representando 10 semanas de estudos. Cada pasta vai conter um readme com um resumo abordado na semana, exercícios e/ou projetos relacionados resolvidos.
+The repository is divided into 10 folders, representing 10 weeks of study. Each folder will contain a README with a summary of the topics covered, exercises and related projects.
 
-### 🎯 Objetivo Geral
+### 🎯 General Objective
 
-- Reforcar os fundamentos da programação.
-- Desenvolver habilidades práticas.
-- Construir um portfólio com projetos reais em C++, Python e Web.
-- Criar um hábito diário de estudos.
+- Reinforce programming fundamentals.
 
-### 📅 Visão Geral do Cronograma
-#### Semana 1: Introdução ao C++ e Pensamento Lógico
+- Develop practical skills.
 
-Tópicos:
-- Configuração do Ambiente (VS Code, compilador G++ ou Clang).
-- Sintaxe básica: main() , includes, namespaces.
-- Variáveis, Tipos de Dados (int, float, double, char, bool) e Constantes.
-- Operadores (Aritméticos, Lógicos, Relacionais).
-- Estruturas de Controle: if , else if , else , switch .
-- Loops: while , do-while , for .
+- Build a portfolio with real projects in C++, Python, and Web.
 
-Projeto: Calculadora de Console (pedir dois números e uma operação).
+- Create a daily study habit.
 
-#### Semana 2: Funções, Arrays e Ponteiros (O núcleo do C++)
+### 📅 Overview of the Schedule
+#### Week 1: Introduction to C++ and Logical Thinking
 
-Tópicos:
-- Funções (declaração, definição, parâmetros, retorno).
-- Escopo de variáveis (local vs. global).
-- Arrays (vetores) e Strings ( std::string ).
-- Ponteiros: O conceito mais importante. Entender & (endereço de) e * (desreferência).
-- Alocação dinâmica de memória ( new e delete ).
+Topics:
 
-Projeto: Criar um Jogo da Forca simples em C++.
+- Environment Setup.
+- Basic syntax.
+- Variables, Data Types and Constants.
+- Operators.
+- Control Structures.
+- Loops.
 
-#### Semana 3: Introdução a Estrutura de Dados e POO
+Project: Console Calculator (ask for two numbers and an operation).
 
-Tópicos:
-- Structs (Estruturas): Agrupando dados.
-- Introdução à Programação Orientada a Objetos (POO): Classes e Objetos, Construtores e Destrutores, Encapsulamento.
-- Introdução à STL (Standard Template Library).
+#### Week 2: Functions, Arrays, and Pointers (The core of C++)
 
-#### Semana 4: A Sintaxe do Python
+Topics:
 
-Tópicos:
-- Configuração (Python 3, VS Code, extensões).
-- Ambientes Virtuais.
-- Sintaxe: Tipagem dinâmica, indentação.
-- Estruturas de Dados Nativas: Listas, Tuplas, Dicionários, Sets.
-- Loops e Compreensões de Lista.
-- Funções e Módulos
+- Functions.
+- Variable scope.
+- Arrays and Strings.
+- Pointers.
+- Dynamic memory allocation.
 
-#### Semana 5: Python Intermediário e Módulos
+Project: Create a simple Hangman Game in C++.
 
-Tópicos:
-- Tratamento de Exceções.
-- Leitura e Escrita de Arquivos.
-- POO em Python.
-- Usando bibliotecas de terceiros.
-- Introdução à biblioteca requests.
+#### Week 3: Introduction to Data Structures and OOP
 
-Projeto: Um script que consome uma API pública (ex: API do GitHub, ou uma API de clima como a OpenWeatherMap) e exibe informações formatadas no console.
+Topics:
 
-#### Semana 6: Git e HTML
+- Structs.
+- Introduction to Object-Oriented Programming (OOP).
+- Introduction to STL (Standard Template Library).
 
-Tópicos:
-- Git: O que é controle de versão?
-- Comandos essenciais.
-- GitHub: Criar repositórios, git push , git pull , git clone .
-- HTML5: Estrutura básica.
-- Tags semânticas.
-- Tags de conteúdo.
-- Formulários básicos.
+#### Week 4: Python Syntax
 
-#### Semana 7: CSS e JavaScript Básico
+Topics:
 
-Tópicos:
-- CSS: Como "linkar" o CSS ao HTML.
-- Seletores.
-- Propriedades básicas.
-- O Box Model.
-- Introdução a Layouts.
-- JavaScript Básico: O que é o DOM, selecionar elementos, manipular elementos, eventos.
+- Setup (Python 3, VS Code, extensions).
+- Virtual Environments.
+- Syntax.
+- Native Data Structures.
+- Loops and List Comprehensions.
+- Functions and Modules.
 
-Projeto: Construir uma Página de Portfólio Pessoal estática.
+#### Week 5: Intermediate Python and Modules
 
-#### Semana 8: Projeto C++ Avançado
+Topics:
 
-Projeto: Sistema de Gerenciamento Simples (ex: Biblioteca ou Cadastro de Alunos).
+- Exception Handling.
+- File Reading and Writing.
+- OOP in Python.
+- Using third-party libraries.
+- Introduction to the requests library.
 
-Usar POO e std::vector ou std::map para armazenar os dados em memória.
-Criar um menu de console para Adicionar, Remover, Listar e Buscar.
-Salvar e carregar os dados de um arquivo .txt ou .csv.
+Project: A script that consumes a public API (e.g., GitHub API or a weather API like OpenWeatherMap) and displays formatted information in the console.
 
-#### Semana 9: Projeto Python com Backend
+#### Week 6: Git and HTML
 
-Tópicos:
-- Introdução a Backends.
-- Conceito de API REST.
-- Usando Flask ou FastAPI para criar uma API simples.
-- Criar "endpoints" que retornam JSON.
+Topics:
 
-Projeto: API para o Portfólio.
-Criar uma API simples em Python que, por exemplo, tem um endpoint.
-Modificar a página de Portfólio (projeto da semana 7) para usar JavaScript e carregar dinamicamente os projetos a partir da sua API Python.
+- Git: What is version control?
+- Essential commands.
+- GitHub: Creating repositories.
+- HTML5: Basic structure.
+- Semantic tags.
+- Content tags.
+- Basic forms.
 
-#### Semana 10: Estrutura de Dados, Algoritmos e Revisão
+#### Week 7: CSS and Basic JavaScript
 
-Tópicos:
-- Revisão de tudo.
-- Conceitos de Estrutura de Dados (Teoria): O que são Listas Ligadas, Pilhas, Filas.
-- Conceito de Complexidade de Algoritmos (Big O Notation).
-- Resolver alguns problemas fáceis/médios no LeetCode ou HackerRank usando Python ou C++.
+Topics:
 
-### 🛠 Tecnologias Utilizadas
+- CSS: How to "link" CSS to HTML.
+- Selectors.
+- Basic properties.
+- The Box Model.
+- Introduction to Layouts.
+- Basic JavaScript.
+
+Project: Build a static Personal Portfolio Page.
+
+#### Week 8: Advanced C++ Project
+
+Project: Simple Management System (e.g., Library or Student Registration System).
+
+Use OOP and std::vector or std::map to store data in memory.
+Create a console menu to Add, Remove, List, and Search.
+Save and load data from a .txt or .csv file.
+
+#### Week 9: Python Project with Backend
+
+Topics:
+
+- Introduction to Backends.
+- REST API concept.
+- Using Flask or FastAPI to create a simple API.
+- Creating endpoints that return JSON.
+
+Project: Portfolio API.
+Create a simple API in Python with an endpoint.
+Modify the Portfolio page (from Week 7) to use JavaScript and dynamically load projects from your Python API.
+
+#### Week 10: Data Structures, Algorithms, and Review
+
+Topics:
+
+- Full review.
+- Data Structure concepts (Theory).
+- Algorithm Complexity (Big O Notation).
+- Solve some easy/medium problems on LeetCode or HackerRank using Python or C++.
+
+### 🛠 Technologies Used
 
 <img 
     align="left" 
@@ -171,6 +183,6 @@ Tópicos:
 <br>
 <br>
 
-### 📌 Observação
+### 📌 Observation
 
-Este repositório representa uma jornada pessoal de aprendizado. Todos os projetos podem ser expandidos, melhorados e reaproveitados para trabalhos acadêmicos ou futuros projetos profissionais.
+This repository represents a personal learning journey. All projects can be expanded, improved, and reused for academic work or future professional projects.
